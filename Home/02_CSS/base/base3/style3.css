@@ -1,4 +1,4 @@
-.NvBlock{
+.Block_1{
     padding-top: 0.1px;
     vertical-align: top;
     max-height: 15em;
@@ -9,22 +9,22 @@
     height: 300px;
     background-color: #DCDCDC;
 }
-.RightTop{
+.Block_2{
     padding-top: 0.1px;
     background-color: #A9A9A9;
     margin-bottom: 0.2em;
     margin-left: 15em;
 }
-.RightBottom{
+.Block_3{
     padding-top: 0.1px;
     background-color: #A9A9A9;
     margin-bottom: 0.2em;
     margin-left: 15em;
 }
-.Goom{
+.image{
     clear: both;
 }
-.footer{
+.Block_4{
         background-color: #A9A9A9;
     clear: both;
 }
