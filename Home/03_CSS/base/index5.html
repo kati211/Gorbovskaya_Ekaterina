@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        display: inline;
+        border-radius: 10px;
+        padding: 7px; /* Поля вокруг текста */
+    
+    }
+    div.Block_1 { width: 100%;}
+    div.Block_1 > div { background-color: rgba(195, 195, 195, 0.849); border: solid rgb(0, 0, 0) 1px; position: relative; cursor: help}
+    div.Block_2 { width: 100%; display: none}
+    div.Block_2 > div { background-color: rgb(246, 248, 248); border: solid rgb(0, 0, 0) 1px; cursor: pointer}
+    div.Block_1 > div:hover div.Block_2 { display: block; position: absolute; left: 80%; top: 90%; z-index: 1 }
+</style>
+
+<body>
+    <div class='Block_1'>
+        <div>Понедельник
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            Вторник
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+           Среда
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>Четверг
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            Пятница
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            Суббота
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div></div>
+        <div>
+            Воскресенье
+            <div class='Block_2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div></div>
+    
+    </div>
+</body>
+</html>
