@@ -1,0 +1,21 @@
+td{
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-bottom-color: rgb(71, 71, 71);
+}
+tr:nth-child(2n+1){
+    background-color: rgb(213, 213, 213);
+}
+tr:nth-child(1){
+    text-align: center;
+    background-color: rgb(114, 114, 114);
+}
+tr:nth-last-child(1){
+    border-right-style: none;
+}
+tbody tr:hover{
+    background: rgb(172, 196, 181);
+}
+tr:last-child td{
+    border-bottom-style: none;
+}
